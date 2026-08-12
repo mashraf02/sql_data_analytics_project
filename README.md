@@ -44,6 +44,8 @@ Senior and leadership positions offered the highest salaries in the dataset. Rol
 
 By combining salary and demand, SQL and Python emerged as the strongest overall career investments. Tableau and Power BI also showed an excellent balance between market demand and competitive salaries, making them valuable complementary skills.
 
+![Top Paying Roles](asset/analytics_project.png)
+
 ## What I Learned
 
 This project strengthened my understanding of:
