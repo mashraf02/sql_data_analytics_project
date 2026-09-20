@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "MotherDuck",
+            "driver": "DuckDB",
+            "database": "md:?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hc2hyYWZ0MDJAZ21haWwuY29tIiwibWRSZWdpb24iOiJhd3MtZXUtY2VudHJhbC0xIiwic2Vzc2lvbiI6Im1hc2hyYWZ0MDIuZ21haWwuY29tIiwicGF0IjoiQ3VIZ19mZTVzZUNjTTAyaXloc3FEcmRkTlhJc3BxMnM4NVlnczQ1eWs2USIsInVzZXJJZCI6IjE5YzA3ZGE4LTc2OGItNGY5Yi1hODJmLTEzMDc5NjlkYzY1YiIsImlzcyI6Im1kX3BhdCIsInJlYWRPbmx5IjpmYWxzZSwidG9rZW5UeXBlIjoicmVhZF93cml0ZSIsImlhdCI6MTc4NzA1NDkyMn0.vHBIBuUqh1gNALDV2dQl-lYkmHIZZPmruDUEFBS3Xbg"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "sql_course",
+            "database": "sql_course",
+            "username": "postgres"
+        }
+    ]
+}

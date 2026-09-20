@@ -1,0 +1,4 @@
+-- Q10. Companies in company_dim that have no postings at all
+SELECT company_id FROM company_dim
+EXCEPT
+SELECT company_id FROM job_postings_fact;

@@ -7,8 +7,8 @@ FROM (
         COUNT(*) AS total_postings
     FROM job_postings_fact j
     JOIN company_dim c ON j.company_id = c.company_id
-    WHERE j.job_title_short = 'Data Analyst'
+    WHERE j.job_title_short = 'Data Analyst' AND j.job_work_from_home = TRUE
     GROUP BY c.name
 ) sub
 ORDER BY total_postings DESC
-LIMIT 5;
+LIMIT 50;
